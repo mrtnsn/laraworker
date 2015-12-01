@@ -94,10 +94,7 @@ function is_command_registered($artisan_file_path, $register_command_text)
 
 function get_laravel_version()
 {
-    $composer_content = file_get_contents('composer.json');
-    $content_arr = json_decode($composer_content, true);
-    $version_arr = $content_arr["require"]["laravel/framework"];
-    return intval($version_arr[0]);
+    return 4;
 }
 
 function insert_to_file($filename, $after_line, $text)
