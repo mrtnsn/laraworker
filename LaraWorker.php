@@ -1,7 +1,7 @@
 <?php
 $version = get_laravel_version();
 
-$current_path = getcwd() . '/vendor/iron-io/laraworker/';
+$current_path = getcwd() . '/vendor/sempro/laraworker/';
 $workers_dir_path = getcwd() . '/workers';
 
 $install_option = getopt("i:");
