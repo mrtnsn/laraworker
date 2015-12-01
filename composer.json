@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "iron-io/iron_mq": "1.*",
+        "iron-io/iron_mq": "3.*",
         "iron-io/iron_worker": "1.*"
     },
     "autoload": {
