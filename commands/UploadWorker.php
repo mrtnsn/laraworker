@@ -27,10 +27,6 @@ class UploadWorker extends Command
 
     public function fire()
     {
-        $iron = $this->laravel['queue']->connection();
-        if (!$iron instanceof IronQueue) {
-            throw new RuntimeException("Iron.io based queue must be default.");
-        }
         if (!is_dir(getcwd() . '/' . $this->workers_dir . '/'))
             throw new RuntimeException("Workers directory doesn't exist!");
 
