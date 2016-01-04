@@ -1,5 +1,5 @@
 {
-    "name": "sempro/laraworker",
+    "name": "mrtnsn/laraworker",
     "type": "library",
     "description": "LaraWorker is a helper package that makes integrating your Laravel application with Iron.io's IronWorker very easy!",
     "keywords": ["laravel","job","delayed_job","iron","iron_worker","background","task"],
