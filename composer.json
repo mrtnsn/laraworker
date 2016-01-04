@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.2.0",
         "iron-io/iron_mq": "2.*",
-        "iron-io/iron_worker": "1.*"
+        "iron-io/iron_worker": "2.*"
     },
     "autoload": {
         "files": ["LaraWorker.php"]
